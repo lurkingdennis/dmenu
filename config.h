@@ -7,7 +7,7 @@ static int centered = 1;                    /* -c option; centers dmenu on scree
 static int min_width = 500;                    /* minimum width when centered */
 static const float menu_height_ratio = 2.0f;  /* This is the ratio used in the original calculation */
 /* -fn option overrides fonts[0]; default X11 font or font set */
-static const int user_bh = 8;               /* add an defined amount of pixels to the bar height */
+static const int user_bh = 4;               /* add an defined amount of pixels to the bar height */
 
 static const char *fonts[] = {
 	"terminess nerd font:size=9"
